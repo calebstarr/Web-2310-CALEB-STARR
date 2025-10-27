@@ -1,10 +1,14 @@
 
+html{
+    font: size 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     color: #bcaaff;
     font: 1em sans-serif;
-    font-size: 110px;
+    font-size: 90px;
     font-display: block;
-    font-style: bold;
+    font-weight: bold;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -16,9 +20,19 @@ h2{
     text-align: center;
     
 }
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+
+}
+
+
+
 
 body{
-    background-image: url("images/IMG3.jpg");
+    background-image: url("IMG3.jpg");
     background-repeat: repeat-y;
     background-position-x: center;
     background-position-y: center;
@@ -35,5 +49,8 @@ nav{
     
 }
 .collumn{
+    display: flex;
+    align-items: center;
     
+
 }
