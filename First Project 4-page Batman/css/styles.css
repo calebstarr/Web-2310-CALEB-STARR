@@ -2,7 +2,7 @@
 
 
 
-html{
+html {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@ h1 {
 
 }
 
-h2{
+h2 {
     color: #4a0aec;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
@@ -23,7 +23,7 @@ h2{
     justify-content: center;
     
 }
-h3{
+h3 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
@@ -38,12 +38,12 @@ body {
 
 
 .collumn ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
   justify-content: center; 
   gap: 20px;                
   padding: 0;
-  size: 0rem;
+  
   
     
 
@@ -155,36 +155,3 @@ nav ul li a {
     
  
 
-p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 108%;
-
-}
-    
-
-
-
-nav ul li a:hover{
-    color: rgb(255, 226, 8);
-    text-decoration: underline;
-}
-
-img{
-    width: 0%;
-    height: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    
-}
-
-ul li a {
-    list-style: none;
-}
-
-div{
-    width: 60px;
-    text-align: center;
-    list-style-type: none;
-}
