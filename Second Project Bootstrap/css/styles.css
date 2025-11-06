@@ -1,0 +1,260 @@
+body{
+    background-color: #160c06;
+    color: #f4efcb;
+     font-family: "Eagle Lake", serif;
+    padding-top: 70px;
+
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+/*classes*/
+.navbar {
+    background-color: #f4efcb;
+    color: #160c06;
+    display: flex;
+    height: 60px;
+   
+  }
+
+ 
+ 
+
+  .nav-item {
+    display: flex;
+    margin: 10px;
+    align-items: left;
+    justify-content: left;
+
+  }
+
+  .nav-item a:hover{
+    text-decoration: underline;
+  }
+
+  .navbar-collapse {
+    background-color: #f4efcb;
+    
+
+  }
+
+  .navbar-toggler {
+    size: 0cap;
+  }
+
+   .container {
+    height: auto;
+  }
+
+  .dropdown-menu {
+    background-color: #f4efcb;
+
+  }
+
+  
+
+  
+
+ 
+  .nav-li:hover {
+    text-decoration: underline;
+
+  }
+  
+  
+  .btn{
+    background-color: #160c06;
+    outline: none;
+    border: #160c06;
+    color: #f4efcb;
+    
+    
+  }
+
+  
+
+  .btn:hover {
+    background-color: #f4efcb;
+    color: #160c06;
+    text-decoration: underline;
+  }
+
+  .btn:active{
+    background-color: #160c06;
+    color: #000;
+  }
+
+  .btn-lg {
+    height: 40px;
+    font-size: larger;
+    width: auto;
+    border: none;
+    color:#160c06;
+    background-color: #f4efcb;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+  }
+
+
+  .btn-lg:hover{
+    background-color: #160c06;;
+    color:#f4efcb;
+    text-decoration: underline;
+    
+
+  }
+
+  .btn-sm {
+
+    height: 35px;
+    font-size: medium;
+    border: none;
+    color:#160c06;
+    background-color: #f4efcb;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+  }
+
+  .btn-sm:hover{
+
+    background-color: #160c06;;
+    color:#f4efcb;
+    text-decoration: underline;
+    
+
+  }
+  .carousel-item{
+    height: 100%;
+    width: auto;padding-bottom: 20px;
+
+  }
+
+  .modal-body{
+    background-color:#f4efcb;
+    color: #160c06;
+}
+
+.card{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 190px;
+    background-color: #f4efcb;
+    text-align: center;
+    display: inline flex;
+    margin-left: 90px;
+    margin-right: 90px;
+
+   
+}
+ 
+  
+ 
+
+  
+
+
+   
+
+
+
+#header_img {
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#jumbo {
+    background-image: url(../images/lee8.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#jumboo {
+    background-image: url(../images/lee3.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#jumbooo {
+    background-image: url(../images/lee9.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+#header {
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+h1{ 
+    font-style: oblique;
+    text-align: center;
+    font-family: ;
+    font-size: 80px;
+
+}
+
+h3 {
+    color:#f4efcb;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+ hr {
+    
+  }
+
+ p{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 3px;
+ }
+
+ @media (min-width: 786px){
+    #panel_bg {
+    width: 30%;
+    align-items: first baseline;
+    background-color: #160c06;
+}
+
+
+
+ }
+
+ @media (max-width: 989px) {
+
+    .navbar{
+    padding-bottom: 150px;
+}
+ }
