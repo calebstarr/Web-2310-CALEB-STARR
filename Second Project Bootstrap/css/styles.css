@@ -165,6 +165,7 @@ body{
   padding-top: 20px;
 }
  
+
   
  
 
@@ -215,15 +216,23 @@ body{
 }
 
 h1{ 
-    font-style: oblique;
+    
     text-align: center;
     font-size: 80px;
+    padding-bottom: 40px;
+
+}
+
+h2{
+  padding-bottom: 40px;
+  padding-top: 80px;
+
 
 }
 
 h3 {
     color:#f4efcb;
-    display: flex;
+    
     text-align: center;
     
     
