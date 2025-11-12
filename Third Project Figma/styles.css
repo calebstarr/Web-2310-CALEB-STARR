@@ -1,0 +1,123 @@
+
+
+
+body{
+    background-color: #0E0E0E;
+    color: #E5CFBA;
+     font-family: "Rethink Sans", serif;
+    padding-top: 70px;
+
+}
+
+
+h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+h3{
+  font-style: italic;
+  text-align: center;
+  padding-top: 40px;
+}
+
+p{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+.rethink-sans {
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+
+.horizontal-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+
+
+#header_img {
+  background-image: url(../Third\ Project\ Figma/images/sand1.jpg);
+  background-size: cover;       
+  background-position: center;   
+  height: 800px;                
+               
+
+
+}
+
+#header {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+  .navbar {
+    background-color: #E5CFBA;
+    color: #160c06;
+    display: flex;
+    height: 60px;
+   
+  }
+
+ 
+  .nav-item {
+    display: flex;
+    margin: 10px;
+    
+    justify-content: left;
+
+  }
+
+  .nav-item a:hover{
+    text-decoration: underline;
+  }
+
+  .navbar-collapse {
+    background-color: #E5CFBA;
+    
+
+  }
+
+  @media (min-width: 786px){
+    #panel_bg {
+    width: 30%;
+    align-items: first baseline;
+    background-color: #160c06;
+}
+
+
+
+ }
+
+ @media (max-width: 989px) {
+
+    .navbar{
+    padding-bottom: 150px;
+}
+ }
+
+
+  
+
